@@ -1,0 +1,215 @@
+.navbar-icon-top .navbar-nav .nav-link>.fa {
+    position: relative;
+    width: 36px;
+    font-size: 24px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link>.fa>.badge {
+    font-size: 0.75rem;
+    position: absolute;
+    right: 0;
+    font-family: sans-serif;
+}
+
+.navbar-icon-top .navbar-nav .nav-link>.fa {
+    top: 3px;
+    line-height: 12px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link>.fa>.badge {
+    top: -10px;
+}
+
+@media (min-width: 1200px) {
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link>.fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link>.fa>.badge {
+        top: -7px;
+    }
+}
+
+ul.navbar-nav{
+    flex: 1;
+}
+.collection-slide{
+    width: 100%;
+        margin-top: 60px;
+}
+.pre-heading p {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.title{
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+.tagline {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+.collection-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px 0 0 -20px;
+}
+.call-to-action {
+  margin-top: 0;
+}
+.btn-fill-rounded {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 2;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: Lato;
+  font-style: inherit;
+  font-weight: inherit;
+  border: 1px solid #e8464c;
+  background-color: #e8464c;
+  color: #fff;
+  border-radius: 100px;
+}
+
+.btn-primary-lg {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 2;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 0;
+  letter-spacing: 4px;
+  font-family: Lato;
+  font-style: inherit;
+  font-weight: inherit;
+  color: #fff;
+  background-color: #e8464c;
+  border-color: #e52f36;
+  text-transform: uppercase;
+  padding: 5px 50px;
+  font-size: 18px;
+}
+.content-overlay {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  position: absolute;
+  top: 0;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+.collection-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px 0 0 -20px;
+}
+.section-type-banner.banner-slide .content .collection-slide .collection-info ul {
+  font-weight: bold;
+  list-style: none;
+  margin: 0;
+}
+.collection-info ul li:nth-of-type(1) {
+  font-size: 11px;
+      margin-bottom: 15px;
+}
+.collection-info ul li:nth-of-type(2) {
+  margin-top: -18px;
+  font-size: 28px;
+}
+.collection-slide .collection-info ul {
+  font-weight: bold;
+  list-style: none;
+  margin: 0;
+}
+.badge-success {
+  color: #fff;
+  background-color: #e52f36 !important;
+}
+.carousel-item{
+    height: 500px !important;
+    width: 100% !important;
+}
+.navbar-brand img{
+    width:100px;
+}
+.navbar-nav.mr-auto{
+    width:42%;
+}
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #e52f36 !important;
+  border-color: #e52f36 !important;
+}
+.btn-outline-success {
+  color: #fff !important;
+  border-color: #e8464c !important;
+}
+.carousel-caption{
+    top: 10% !important;
+}
+@media (min-width: 576px) and (max-width:768px) {
+.navbar-nav.mr-auto {
+  width: 90%;
+}
+}
+
+@media (min-width: 768px) and ( max-width:991px)  {
+  .navbar-nav.mr-auto {
+    width: 90%;
+  }
+}
+/* slider css*/
