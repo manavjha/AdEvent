@@ -202,6 +202,10 @@ ul.navbar-nav{
 .carousel-caption{
     top: 10% !important;
 }
+header nav.navbar{
+      background-color: #222;
+      border-color: #080808;
+}
 @media (min-width: 576px) and (max-width:768px) {
 .navbar-nav.mr-auto {
   width: 90%;
