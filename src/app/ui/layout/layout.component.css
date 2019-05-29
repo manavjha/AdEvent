@@ -326,7 +326,7 @@ li {
 .card-body a {
     color: #f8f8f9;
     text-decoration: none;
-    background-color: #c30808c2;
+    background-color: #e8464c !important;
     padding: 8px 20px;
 }
   .carousel-inner img {

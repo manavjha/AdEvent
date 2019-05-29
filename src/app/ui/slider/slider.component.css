@@ -1,78 +1,88 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 .navbar-icon-top .navbar-nav .nav-link>.fa {
-    position: relative;
-    width: 36px;
-    font-size: 24px;
+  position: relative;
+  width: 36px;
+  font-size: 24px;
 }
 
 .navbar-icon-top .navbar-nav .nav-link>.fa>.badge {
-    font-size: 0.75rem;
-    position: absolute;
-    right: 0;
-    font-family: sans-serif;
+  font-size: 0.75rem;
+  position: absolute;
+  right: 0;
+  font-family: sans-serif;
 }
 
 .navbar-icon-top .navbar-nav .nav-link>.fa {
-    top: 3px;
-    line-height: 12px;
+  top: 3px;
+  line-height: 12px;
 }
 
 .navbar-icon-top .navbar-nav .nav-link>.fa>.badge {
-    top: -10px;
+  top: -10px;
 }
 
 @media (min-width: 1200px) {
-    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
-        text-align: center;
-        display: table-cell;
-        height: 70px;
-        vertical-align: middle;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link>.fa {
-        display: block;
-        width: 48px;
-        margin: 2px auto 4px auto;
-        top: 0;
-        line-height: 24px;
-    }
-    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link>.fa>.badge {
-        top: -7px;
-    }
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link>.fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link>.fa>.badge {
+    top: -7px;
+  }
 }
 
-ul.navbar-nav{
-    flex: 1;
+ul.navbar-nav {
+  flex: 1;
 }
-.collection-slide{
-    width: 100%;
-        margin-top: 60px;
+
+.collection-slide {
+  width: 100%;
+  margin-top: 60px;
 }
+
 .pre-heading p {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 0;
 }
-.title{
+
+.title {
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
 }
+
 .tagline {
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
 }
+
 .collection-info {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 30px 0 0 -20px;
 }
+
 .call-to-action {
   margin-top: 0;
 }
+
 .btn-fill-rounded {
   display: inline-block;
   margin-bottom: 0;
@@ -135,6 +145,7 @@ ul.navbar-nav{
   padding: 5px 50px;
   font-size: 18px;
 }
+
 .content-overlay {
   display: -webkit-box;
   display: -moz-box;
@@ -152,65 +163,84 @@ ul.navbar-nav{
   width: 100%;
   color: #fff;
 }
+
 .collection-info {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 30px 0 0 -20px;
 }
+
 .section-type-banner.banner-slide .content .collection-slide .collection-info ul {
   font-weight: bold;
   list-style: none;
   margin: 0;
 }
+
 .collection-info ul li:nth-of-type(1) {
   font-size: 11px;
-      margin-bottom: 15px;
+  margin-bottom: 15px;
 }
+
 .collection-info ul li:nth-of-type(2) {
   margin-top: -18px;
   font-size: 28px;
 }
+
 .collection-slide .collection-info ul {
   font-weight: bold;
   list-style: none;
   margin: 0;
 }
+
 .badge-success {
   color: #fff;
   background-color: #e52f36 !important;
 }
-.carousel-item{
-    height: 500px !important;
-    width: 100% !important;
+
+.carousel-item {
+  height: 500px !important;
+  width: 100% !important;
 }
-.navbar-brand img{
-    width:100px;
+
+.navbar-brand img {
+  width: 100px;
 }
-.navbar-nav.mr-auto{
-    width:42%;
+
+.navbar-nav.mr-auto {
+  width: 42%;
 }
+
 .btn-outline-success:hover {
   color: #fff;
   background-color: #e52f36 !important;
   border-color: #e52f36 !important;
 }
+
 .btn-outline-success {
   color: #fff !important;
   border-color: #e8464c !important;
 }
-.carousel-caption{
-    top: 10% !important;
-}
-@media (min-width: 576px) and (max-width:768px) {
-.navbar-nav.mr-auto {
-  width: 90%;
-}
+
+.carousel-caption {
+  top: 10% !important;
 }
 
-@media (min-width: 768px) and ( max-width:991px)  {
+@media (min-width: 576px) and (max-width:768px) {
   .navbar-nav.mr-auto {
     width: 90%;
   }
 }
+
+@media (min-width: 768px) and (max-width:991px) {
+  .navbar-nav.mr-auto {
+    width: 90%;
+  }
+}
+
 /* slider css*/
+.carousel-inner .carousel-item {
+    height:500px;
+    background-size:cover;
+    background-position: center center;
+}
