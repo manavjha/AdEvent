@@ -210,10 +210,10 @@ header nav.navbar{
 .navbar {
   display: block !important;
 }
-
 .navbar-toggler {
   float: right !important;
 }
+
 }
 @media (min-width: 576px) and (max-width:768px) {
 .navbar {
@@ -223,6 +223,7 @@ header nav.navbar{
 .navbar-toggler {
   float: right !important;
 }
+
 }
 
 @media (min-width: 768px) and ( max-width:991px)  {
@@ -233,6 +234,8 @@ header nav.navbar{
  .navbar-toggler {
    float: right !important;
  }
+
+
 }
 
 /* slider css*/

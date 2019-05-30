@@ -225,7 +225,15 @@ ul.navbar-nav {
 .carousel-caption {
   top: 10% !important;
 }
+@media (min-width: 370px) and (max-width:576px) {
+      .d-none {
+        display: block !important;
+      }
 
+      h1 {
+        font-size: 1rem;
+      }
+}
 @media (min-width: 576px) and (max-width:768px) {
   .navbar-nav.mr-auto {
    /* width: 90%;*/
@@ -235,6 +243,13 @@ ul.navbar-nav {
   }
   .navbar-toggler {
     float: right !important;
+  }
+  .d-none {
+    display: block !important;
+  }
+
+  h1 {
+    font-size: 1.2rem;
   }
 }
 
@@ -248,6 +263,13 @@ ul.navbar-nav {
 
    .navbar-toggler {
      float: right !important;
+   }
+   .d-none {
+     display: block !important;
+   }
+
+   h1 {
+     font-size: 1.2rem;
    }
 }
 
