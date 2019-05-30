@@ -248,7 +248,7 @@
 }
 .package-cities-list li {
   display: inline-block;
-  float: left;
+
   text-transform: capitalize;
   padding-right: 13px;
   margin-right: 7px;

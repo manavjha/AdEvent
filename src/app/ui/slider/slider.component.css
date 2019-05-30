@@ -228,14 +228,27 @@ ul.navbar-nav {
 
 @media (min-width: 576px) and (max-width:768px) {
   .navbar-nav.mr-auto {
-    width: 90%;
+   /* width: 90%;*/
+  }
+  .navbar{
+      display: block !important;
+  }
+  .navbar-toggler {
+    float: right !important;
   }
 }
 
 @media (min-width: 768px) and (max-width:991px) {
   .navbar-nav.mr-auto {
-    width: 90%;
+   /* width: 90%;*/
   }
+   .navbar {
+     display: block !important;
+   }
+
+   .navbar-toggler {
+     float: right !important;
+   }
 }
 
 /* slider css*/
