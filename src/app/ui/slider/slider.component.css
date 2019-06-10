@@ -235,9 +235,7 @@ ul.navbar-nav {
       }
 }
 @media (min-width: 576px) and (max-width:768px) {
-  .navbar-nav.mr-auto {
-   /* width: 90%;*/
-  }
+
   .navbar{
       display: block !important;
   }
